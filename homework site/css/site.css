@@ -1,0 +1,150 @@
+
+header, footer {
+  background-color: #000000;
+  border: solid 1px white;
+  
+}
+
+
+
+footer {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+body {
+  font-family: Segoe UI, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #0a6dd6;
+}
+
+
+a {
+  color: #0a6dd6;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.bordered-image {
+  border: solid 1px #444;
+  border-radius: 2px;
+  max-width: 80%;
+  max-height: 80%;
+}
+
+
+#main {
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  color: #202020;
+  margin: 20px 0;
+  padding: 5px;
+}
+
+#results {
+  border: 1px;
+  padding: 2px;
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.simple-form {
+  padding: 2px;
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.simple-form label {
+  font-weight: bold;
+}
+
+.simple-form input[type=text],
+.simple-form select,
+.simple-form input[type=password],
+.simple-form textarea {
+  width: 150px;
+}
+
+.simple-form input[type=submit] {
+  background-color: blue;
+  color: white;
+  border-radius: 15px;
+  padding: 3px;
+  margin-top: 5px;
+}
+
+.container {
+  width: 989px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 5px;
+}
+
+header nav {
+  float: right;
+  margin-right: 5px;
+}
+
+header nav li {
+  display: inline;
+  font-size: 15px;
+}
+
+.result {
+  margin: 5px;
+  border: 1px solid #888;
+}
+
+.result .title {
+  font-weight: bold;
+}
+
+#toggleButton {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 5px;
+}
+#cloudButton {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 5px;
+  position: relative;
+}
+
+#cloudButton2 {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  padding: 5px;
+  margin-top: 5px;
+  position: relative;
+}
+
+#sliderButton {
+  background-color: blue;
+  color: white;
+  border-radius: 20px;
+  border-color: purple;
+  padding: 5px;
+  margin-top: 5px;
+  position: relative;
+}
+
+
+
+
+
+
+
+
+
+

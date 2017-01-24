@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Look at Clouds</title>
+  <link rel="stylesheet" href="css/site.css" />
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/index.html">Home</a>
+          </li>
+          <li><a href="/contact.html">Contact</a>
+          </li>
+          <li><a href="/about.html">About</a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <img src="img/cloud.png" class="bordered-image" />
+      </div>
+      <div style="color: #0a6dd6; font-size: 18px"> A website with limited functionality for people who like clouds and searching GitHub</div>
+    </header>
+    <section id="main">
+      <p>Use the contentually unrelated form below to search GitHub for projects, compliments of Sean Wildermuth. Click <a href="https://www.google.com/search?q=clouds&biw=1536&bih=770&source=lnms&tbm=isch&sa=X&ved=0ahUKEwi1muvOy83RAhVB62MKHZeuC4YQ_AUIBigB" target="blank">Here</a> to see pictures of clouds on google images.</p>
+      <form action="http://wilder.azurewebsites.net/echo" method="POST" class="bordered-image simple-form" id="gitHubSearchForm">
+        <label for="searchPhrase">Search Phrase:</label>
+        <input type="text" name="searchPhrase" id="searchPhrase" />
+        <br/>
+        <input type="checkbox" name="useStars" id="useStars" checked="true" />
+        <label for="useStars">Use Stars?</label>
+        <br/>
+        <label for="langChoice">Language:</label>
+        <select name="langChoice" id="langChoice">
+          <option>All</option>
+          <option>JavaScript</option>
+          <option selected>C#</option>
+          <option>Java</option>
+          <option>Ruby</option>
+        </select>
+        <br/>
+        <input type="submit" value="search" />
+      </form>
+      <div id="results" class="bordered-image">
+        <button id="toggleButton">Hide</button>
+        <div id="resultList">This is where results will go</div>
+      </div>
+    </section>
+    <div>
+        <button id="sliderButton">Slider</button>
+      </div>
+    <footer id="sliderFooter" style="color: white">
+      Hello, It's Me
+      <div>
+        <button id="cloudButton">A Nearly Useless Button</button>
+      </div>
+      <div>
+        <button id="cloudButton2">Another Useless Button</button>
+      </div>
+    </footer>
+  </div>
+  <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
